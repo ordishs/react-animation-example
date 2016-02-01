@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack-dev-server": "webpack-dev-server --hot --progress --colors --watch --port 3000",
+    "build": "NODE_ENV=production ./node_modules/.bin/webpack --optimize-minimize",
     "start": "npm run webpack-dev-server"
   },
   "keywords": [],
