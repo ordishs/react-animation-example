@@ -1,5 +1,7 @@
 # react-animation-example
 
+DEMO: [http://masa.gi/react-animation-example/](http://masa.gi/react-animation-example/)
+
 Run `npm install` to download all dependencies.
 
 Then run `npm start` to launch a WebPack development server that listens on port 3000.
@@ -15,4 +17,4 @@ Another solution is to define 2 duplicate animations and to toggle between them.
 The CSS is defined in `app.css` and the main animation logic is in `components/TableCell.jsx`.
 
 
-The initial render will draw 20 rows in a table.  This initial render will not trigger any animations.  Then, clicking on <kbd>Refresh a cell</kbd> will randomly choose a cell to update, whilst <kbd>Refresh 1st cell</kbd> will update the 1st cell each time it is clicked. 
+The initial render will draw 20 rows in a table.  This initial render will not trigger any animations.  Then, clicking on <kbd>Refresh a cell</kbd> will randomly choose a cell to update, whilst <kbd>Refresh 1st cell</kbd> will update the 1st cell each time it is clicked.
