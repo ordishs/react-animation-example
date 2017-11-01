@@ -3,7 +3,7 @@ body {
 }
 
 @keyframes flash1 {
-    0% {
+    10% {
         background-color: red;
     }
     100% {
@@ -12,7 +12,7 @@ body {
 }
 
 @keyframes flash2 {
-    0% {
+    10% {
         background-color: red;
     }
     100% {
@@ -20,8 +20,9 @@ body {
     }
 }
 
-.flash1, .flash2 {
-    animation-duration: 2s;
+.flash1,
+.flash2 {
+    animation-duration: 50s;
     animation-timing-function: ease-out;
 }
 
