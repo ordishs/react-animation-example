@@ -4,7 +4,6 @@ import TableRow from './TableRow.jsx';
 export default class Table extends React.Component {
 
     render() {
-
         return (
             <table>
                 <thead>

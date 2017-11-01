@@ -11,7 +11,6 @@ export default class TableRow extends React.Component {
         )
     }
 }
-
 TableRow.propTypes = {
     value : React.PropTypes.string.isRequired
 }
